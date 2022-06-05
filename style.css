@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;700&display=swap');
+
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  background-color: #000000;
+  height: 150px;
+  width: 1920px;
+
+}
+
+.container-grid {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.cabecalho {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.menu {
+  width: 673px;
+  display: flex;
+  justify-content: space-between;
+  transition: box-shadow 0.3s;
+
+}
+
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "roboto";
+    font-weight: bold;
+
+}
+
+.icone-menu {
+  height: 40px;
+}
+
+#barras {
+  display: none;
+  
+}
+
+.menu:hover a {
+  transition: scale (1.1);
+}
+
+
+.botao-login-cadastro {
+  height: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.botao-login-cadastro {
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.botao-login-cadastro {
+  padding: 10px;
+  background-color: #000afe;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.menu-ativo {
+  display: flex;
+}
+
+
+
+/* inicio banner */
+
+main {
+ height: 3715px;
+ width: 1920px;
+}
+
+
+.banner-portal {
+  height: 803px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-portal {
+  background-image: url(img/empty-dark-room-modern-futuristic-sci-fi-background\ 1.svg);
+  height: 803px;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.banner-cs {
+background-image: url(img/banner-csgo.jpg);
+height: 803px;
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.banner-league {
+  background-image: url(img/league-of-legends.jpg);
+  height: 803px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+
+.posicionamento-banner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.conteudo-banner {
+  width: 633px;
+  height: 303px;
+  padding: 200px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.conteudo-banner h1 {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 85px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.conteudo-banner p {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.conteudo-banner a {
+  padding: 15px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.conteudo-banner:hover a {
+  transform: scale(1.1);
+}
+
+/* inicio carrocel */
+
+
+.jogos {
+  height: 150px;
+  background-image: url(img/Rectangle\ 3.svg);
+}
+
+.posicionamento-jogos {
+  height: 100%;
+}
+
+.posicionamento-jogos img {
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.posicionamento-jogos:hover img {
+  transform: scale(1.1);
+}
+
+/* inicio seçao destaque */
+
+.destaque {
+  height: 2150px;
+  background-image: url(img/imagem-fundo-destaque.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.informacao-produto {
+max-width: 284px;
+max-height: 619px;
+background-color: beige;
+padding: 32px 24px 24px;
+border-radius: 10px;
+box-shadow: 10px 0 5px rgba(0,0,0,0.1);
+cursor: pointer;
+transition: box-shadow 0.3s;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.produto {
+display: flex;
+justify-content: space-between;
+padding: 50px 0 ;
+}
+
+.informacao-produto:hover img {
+transform: scale(1.1);
+
+}
+
+.informacao-produto:hover button {
+  transform: scale(1.1);
+  background-color: #b61b10af;
+
+}
+
+.informacao-produto:hover {
+  box-shadow: 10px 10px 5px rgba(240, 18, 18, 0.87);
+}
+
+.informacao-produto img {
+  max-width: 234px;
+  margin-bottom: 16px;
+  transition: transform 0.3s;
+}
+
+.titulo-destaque {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+
+.informacao-produto h2 {
+  color: #000000;
+  font-family: "Titillium Web";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 200px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.informacao-produto p {
+  color: #000000;
+  font-family: "Titillium Web";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.informacao-produto button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+
+}
+
+/* inicio informe geral*/
+
+.destaque-informe {
+  height: 612px;
+  width: 1920;
+  background-color: #000000;
+  
+}
+
+.informe {
+  width: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.juncao-texto-imagem {
+  width: 600px;
+  display: flex;
+}
+
+.textos-informe h3 {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 550px;
+  margin-bottom: 8px;
+ 
+
+}
+
+.textos-informe p {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 48px;
+  max-width: 603px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+
+
+}
+
+.textos-informe button {
+  font-size: 48px;
+  max-width: 10px;
+  max-height: 74px;
+  border: none;
+  padding: 10px 290px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+
+}
+
+/* inicio rodape*/
+
+
+footer {
+  background-color: #000000;
+  height: 420px;
+  width: 1920px;
+  
+  
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.lado-esquerdo {
+ max-width: 960px;
+ max-height: 610px; 
+}
+
+.links-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-footer h4 {
+  font-family: "titillium web";
+  font-size: 54px;
+  font-weight: bold;
+  max-width: 285px;
+  max-height: 54px;
+}
+
+
+.links-footer a {
+font-family: "titillium web";
+font-size: 24px;
+font-weight: bold;
+color: white;
+text-decoration: none;
+}
+
+.links-footer a:hover {
+  color: white;
+}
+
+.lado-direito {
+max-width: 960px;
+max-height: 432px; 
+} 
+
+.logo-rodape img{
+width: 590px;
+height: 215px; 
+}
+
+.sociais p {
+  font-family: "titillium web";
+  
+}
+
+.sociais form {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.sociais input[type="email"] {
+ height: 37px;
+ width: 65%;
+ border-radius: 6px;
+ border-style: none;
+ text-indent: 5px;
+ }
+
+ .sociais input [type="email"]::placeholder {
+   color: white;
+   font-weight: bold;
+  }
+
+.sociais button {
+width: 33%;
+height: 37px;
+color: white;
+background-color: rgb(0, 206, 0);
+border: none;
+font-family: "titillium web";
+font-weight: 60px;
+}
+
+.siga-nos {
+max-width: 589px;
+max-height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+color: white;
+}
+
+.siga-nos h4{
+font-family: "titillium web";
+font-size: 23px;
+object-fit: contain;
+color: white;
+}
+
+.fa-instagram {
+color: hsla(0, 78%, 61%, 0.911);
+scale: 250%;
+}
+
+.fa-facebook {
+  color: blue;
+  scale: 250%;
+}
+
+.fa-twiter {
+  color: white;
+  scale: 350%;
+}
+
+.fa-youtube {
+  color: red;
+  scale: 250%;
+}
+
+
+
+ /* inicio responsavidade */
